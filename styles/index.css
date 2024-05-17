@@ -418,7 +418,7 @@ margin-top: 30px;
 /* Rensponsive */
 @media screen and (max-width:556px) {
    * {
-    max-width: 335px;
+    max-width: 435px;
     margin:0px auto;
     padding: 0;
     box-sizing: border-box;
@@ -464,8 +464,15 @@ margin-bottom: 10px;
    
    .popular-tours{
     flex-direction: column;
-    width: 335px;
+    width: 435px;
    }
+
+   .popular-tours {
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+
    .popular-tours .popular-title{
     width: 300px;
    }
@@ -473,9 +480,9 @@ margin-bottom: 10px;
     flex-direction: column;
   }
   .row-1 img{
-    width: 305px;
-height: 176px;
-padding: 0;
+    width: 100%;
+    height: auto;
+    padding: 0;
 
   }
   .why-conteiner{
@@ -483,13 +490,18 @@ padding: 0;
   }
   .newslatter{
     flex-direction: column;
+    margin: 30px auto;
   }
   .letter-banner{
-    width: 335px;
+    width: 100%;
     height: 300px;
     background-size: cover;
     margin-top: 20px;
 
+  }
+
+  .destinations{
+    margin-top: 30px;
   }
   .saveup{
     width: 214.023px;
@@ -517,16 +529,19 @@ font-weight: 800;
     width: 270px;
   }
 .letter-titles input{
-    width: 288px;
+    width: 388px;
     height: 52px;
     flex-shrink: 0;
     margin-top: 5px;
     padding: 10px;
 }
 .letter-button{
-    width: 288px;
+    width: 388px;
 height: 52px;
 flex-shrink: 0;
+}
+.footer-heading{
+    margin-top: 30px;
 }
 footer p{
     width: 287px;
